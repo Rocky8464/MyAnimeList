@@ -1,0 +1,43 @@
+/*Banner Titles*/
+body{ --name: "";}
+
+/*Banner Background Image*/
+body { --banner: url(https://i.imgur.com/WaLokPG.jpg);}
+.cover-block{
+background-position: 0% 10% !important;
+}
+
+/*Banner Character (Render)*/
+body { --character: url(https://i.imgur.com/h8HW1jf.png);}
+
+/*Banner Avatar*/
+body  { --avatar: url(https://cdn.myanimelist.net/s/common/userimages/f1409170-ebfd-4a08-b916-f2101cee5433_225w?s=44c83e11f5c0e9b820e1c548dae30ca9); }
+
+/*Wallpaper*/
+body { --background: url(); }
+
+/*Side Characters*/
+body footer:before {left: -5%;top: 15%;width: 35% !important;background-size: contain !important;background-image: url();background-position: left bottom !important;}
+body footer:after {right: -10%;top: 0%;width: 40% !important;background-size: contain !important;;background-image: url();background-position: right bottom !important;}
+footer:before, footer:after {content: "";position: fixed;top: 0;z-index: -1;width: calc(50% - 538px);min-width: 262px;height: 100%;background: transparent no-repeat center bottom / contain scroll;}
+
+/*Title and Text Color */
+:root {--text: #ababab;}
+
+/*Table Color*/
+:root {--bg: #212121;}
+
+/*List colors*/
+:root {--pbg: #161616;--bg-dark: #444;--text-h: #416abe;--text-dim: #777;--text-dim-h: #999;--text-dark: #ababab;--shadow: rgba(0,0,0,0.8);--icon: #959595;--accent: #416abe;--banner-text: #f6f5ff;--banner-text-shadow: #e4bef4;--btn-bg: #191919;--btn-bg-h: #ababab;--btn-head-bg-h: #416abe;--btn-text-h: #212121;--text-head: #9b9b9b;--text-head-h: #ababab;--cover-bg: #090909;--edit-btn: #323232;--checkmark: #416abe;}
+
+/*My Custom Css*/
+.data.image a:before{left:-211px;width:188px;}
+.list-item:hover .data.image a:before{top:calc(50% - 125px);height:250px;}
+.data.status{width:2px!important;}
+#search-box.open:after,#search-box.open{width:100px!important;}
+.data.mal_score::before{content:"";}
+.data.mal_score{position:absolute;background: var(--btn-bg);border-radius: 13px;color: var(--text)!important;font-size: 12px!important;line-height: 26px;width:45px;font-weight: bold;left:-63px;z-index:51;top: calc(50% - 120px);pointer-events: none;opacity: 0;transition: all .1s ease}
+.list-item:hover .data.mal_score {top: calc(50% - 120px);transition: all .3s ease .1s;opacity: 1;}
+.data.image:has(> .link):before{position:absolute;font-weight: bold;white-space: pre-wrap;display:none;z-index:52;pointer-events: none;height: auto;left:80px;top:64px;width:900px;padding: 10px;background:#161616;border: var(--text) 1px solid;border-radius:8px;text-align: left;line-height: 16px;font-family: Verdana, Arial;font-size:1.1em!important;color: var(--text)!important;transition:.3s!important;opacity:0;}
+.data.image:has(> .link):hover:before{opacity:1;}
+.data.type:after{position:absolute;white-space: nowrap;margin-left:4px;}
