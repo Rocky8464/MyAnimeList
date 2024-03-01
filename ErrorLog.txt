@@ -1,7 +1,0 @@
-115 : Failed to retrieve content from the URL of : anime/52034
-216 : Failed to retrieve content from the URL of : anime/44983
-334 : Failed to retrieve content from the URL of : anime/43523
-449 : Failed to retrieve content from the URL of : anime/8861
-566 : Failed to retrieve content from the URL of : anime/10479
-679 : Failed to retrieve content from the URL of : anime/14289
-1 : Failed to retrieve content from the URL of : manga/164769
