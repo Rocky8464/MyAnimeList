@@ -31,6 +31,7 @@ footer:before, footer:after {content: "";position: fixed;top: 0;z-index: -1;widt
 :root {--pbg: #161616;--bg-dark: #444;--text-h: #416abe;--text-dim: #777;--text-dim-h: #999;--text-dark: #ababab;--shadow: rgba(0,0,0,0.8);--icon: #959595;--accent: #416abe;--banner-text: #f6f5ff;--banner-text-shadow: #e4bef4;--btn-bg: #191919;--btn-bg-h: #ababab;--btn-head-bg-h: #416abe;--btn-text-h: #212121;--text-head: #9b9b9b;--text-head-h: #ababab;--cover-bg: #090909;--edit-btn: #323232;--checkmark: #416abe;}
 
 /*My Custom Css*/
+.data.tags{width:95px;}
 .data.image a:before{left:-211px;width:188px;}
 .list-item:hover .data.image a:before{top:calc(50% - 125px);height:250px;}
 .data.status{width:2px!important;}
